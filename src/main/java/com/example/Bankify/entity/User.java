@@ -21,17 +21,17 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String firstName;
-    private String lastName;
-    private String gender;
-    private String address;
-    private String stateOfOrigin;
-    private String accountNumber;
-    private BigDecimal accountBalance;
-    private String email;
-    private String phoneNumber;
-    private String alternatePhoneNumber;
-    private String status;
+        private String firstName;
+        private String lastName;
+        private String gender;
+        private String address;
+        private String stateOfOrigin;
+        private String accountNumber;
+        private BigDecimal accountBalance;
+        private String email;
+        private String phoneNumber;
+        private String alternatePhoneNumber;
+        private String status;
 
     @CreationTimestamp
     private LocalDateTime createdAt;
