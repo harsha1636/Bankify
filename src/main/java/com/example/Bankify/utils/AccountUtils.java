@@ -4,6 +4,9 @@ import java.time.Year;
 
 public class AccountUtils {
 
+    public static final String accountExistsCode = "001";
+    public static final String accountExistsMessage = "This Account Already exists";
+
     public static String generateAccountNumber(){
         //currentYear + randomSixDigits number
         Year currentYear = Year.now();
